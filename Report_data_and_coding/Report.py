@@ -8,7 +8,6 @@ print(missValues)
 
 ''' Data cleaning '''
 
-
 #replace "unlisted" by NA in price column
 data.price.replace('unlisted',np.nan,inplace=True)
 
