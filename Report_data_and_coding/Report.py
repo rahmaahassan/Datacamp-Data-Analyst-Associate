@@ -2,7 +2,6 @@ import pandas as pd
 import numpy as np
 
 data = pd.read_csv('pet_supplies_2212.csv')
-
 missValues = data.isna().sum() #missing values for every column
 
 print(missValues)
